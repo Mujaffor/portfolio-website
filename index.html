@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mujaffor</title>
+    <!-- Css file -->
+     <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Scroll Animation CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Swiper Slider CSS (Testimonials) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="./img/profile.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!-- ===========================
+     PRELOADER
+=========================== -->
+<div id="preloader"><div></div></div>
+
+<!-- ===========================
+     NAVBAR
+=========================== -->
+<nav>
+    <div class="logo">Portfolio</div>
+
+    <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <i class="fa-solid fa-moon theme-toggle"></i>
+    <i id="menu-btn" class="fa-solid fa-bars"></i>
+</nav>
+
+<!-- ===========================
+     HERO
+=========================== -->
+<header class="hero" id="hero" data-aos="fade-up">
+    <img src="./img/profile.png" alt="">
+    <div>
+        <h1>Hello, I'm <span>Mujaffor Ali Sumon</span></h1>
+        <h2>Fullstack Developer</h2><br>
+        <p>
+            I build stunning  Full-Stack Solutions with modern layouts, and responsive designs.
+        </p>
+        <div class="hero-buttons">
+            <a class="btn primary" href="#contact">Hire Me</a>
+        </div>
+    </div>
+</header>
+
+<!-- ===========================
+     SKILLS
+=========================== -->
+<section id="skills">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <p class="section-subtext">Professional skills</p>
+
+    <div class="skill-grid">
+        <div class="skill-card" data-aos="fade-right">
+            <i class="fa-brands fa-html5"></i>
+            <h4>HTML</h4>
+            <div class="bar"><div class="bar-fill" data-percent="95%"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-right">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h4>CSS</h4>
+            <div class="bar"><div class="bar-fill" data-percent="90%"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-right">
+            <i class="fa-brands fa-js"></i>
+            <h4>JavaScript</h4>
+            <div class="bar"><div class="bar-fill" data-percent="85%"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-right">
+            <i class="fa-brands fa-react"></i>
+            <h4>React</h4>
+            <div class="bar"><div class="bar-fill" data-percent="85%"></div></div>
+        </div>
+        <div class="skill-card" data-aos="fade-right">
+            <i class="fa-brands fa-node-js"></i>
+            <h4>Node</h4>
+            <div class="bar"><div class="bar-fill" data-percent="85%"></div></div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ===========================
+     SERVICES
+=========================== -->
+<section id="services">
+    <h2 class="section-title">My <span>Services</span></h2>
+    <p class="section-subtext">What I offer to clients</p>
+
+    <div class="service-grid">
+
+        <div class="service-card" data-aos="fade-up">
+            <img src="./img/inv.jpg">
+            <h3>Invoice Management System</h3>
+           <p>Responsive invoice system with dynamic product add, discount & PDF export.</p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up">
+            <img src="./img/hpm.jpg">
+           <h3>Patient Management System</h3>
+            <p>Hospital Integrated Management system designed to meet the unique needs of doctors, clinics, and hospitals.</p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up">
+            <img src="./img/eco.jpg">
+            <h3>E-Commerce Website</h3>
+                <p>Full-featured online shop with orders, payments and product management.</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- ===========================
+     CONTACT FORM
+=========================== -->
+<section id="contact">
+    <h2 class="section-title">Contact <span>Me</span></h2>
+    <p class="section-subtext">Send me a message</p>
+
+     <div class="contact-container">
+        <!-- Left -->
+        <div class="contact-left">
+            <img src="./img/profile.jpg" alt="Contact Photo">
+            <h3>Mujaffor Ali Sumon</h3>
+            <p class="role">Full-Stack web Developer</p>
+            <p><strong>Phone:</strong> +08801737206060</p>
+            <p><strong>Email:</strong> mujaffor.tct@gmail.com</p>
+
+            <p class="find">FIND WITH ME</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+
+        <!-- Right -->
+        <div class="contact-right">
+            <form>
+                <div class="form-row">
+                    <input type="text" placeholder="YOUR NAME">
+                    <input type="text" placeholder="PHONE NUMBER">
+                </div>
+
+                <input type="email" placeholder="EMAIL">
+                <input type="text" placeholder="SUBJECT">
+                <textarea placeholder="YOUR MESSAGE"></textarea>
+
+                <button type="submit">SEND MESSAGE <i class="fa-solid fa-arrow-right-long"></i></button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ===========================
+     JS SCRIPTS
+=========================== -->
+
+<!-- AOS Scroll Animation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<!-- Swiper Slider JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
